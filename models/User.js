@@ -27,7 +27,6 @@ const userSchema = Schema({
     type: String,
     default: null,
   },
-  avatarURL: String,
 });
 
 userSchema.post("save", handleSaveError);
